@@ -34,8 +34,12 @@ defmodule Formel1.Auswertung do
     jahr_string = Integer.to_string(jahr)
     {tip_spieler, ergebnis} = listen(jahr_string, race, spieler)
     punkte = berechnung_punkte(tip_spieler, ergebnis)
-    IO.puts "Der Spieler " <> spieler_string <> " hat beim Rennen von " <>
+
+    string_resultat = "Der Spieler " <> spieler_string <> " hat beim Rennen von " <>
     race_string <> " #{punkte} Punkte eingespielt."
+
+    IO.puts string_resultat
+
     punkte
   end
 
@@ -43,8 +47,14 @@ defmodule Formel1.Auswertung do
 
   def ergebnis_jedes_rennen(jahr, [], spieler, punkte) do
     spieler_string = atom_to_string_and_capitalize(spieler)
-    IO.puts "Das Gesamtergnis von Spieler " <> spieler_string <>
-    " im Jahr #{jahr} beträgt: #{punkte} Punkte."
+    string_resultat = "|| Das Gesamtergnis von Spieler " <> spieler_string <>
+    " im Jahr #{jahr} beträgt: #{punkte} Punkte. ||"
+    length = String.length(string_resultat)
+
+    IO.puts " " <> String.duplicate("=", length-2) <> " "
+    IO.puts string_resultat
+    IO.puts " " <> String.duplicate("=", length-2) <> " \n"
+
   end
 
   def ergebnis_jedes_rennen(jahr, [race|rest_rennen], spieler, punkte) do
