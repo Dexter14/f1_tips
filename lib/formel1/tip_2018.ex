@@ -256,7 +256,16 @@ defmodule Formel1.Tip2018 do
     },
     kanada: %{
       marcus: [
-
+        "Vettel",
+        "Bottas",
+        "Hamilton",
+        "Ricciardo",
+        "Ocon",
+        "Perez",
+        "Hülkenberg",
+        "Sainz",
+        "Magnussen",
+        "Alonso"
       ],
       alex: [
 
