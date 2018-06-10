@@ -268,10 +268,28 @@ defmodule Formel1.Tip2018 do
         "Alonso"
       ],
       alex: [
-
+        "Vettel",
+        "Verstappen",
+        "Ricciardo",
+        "Hamilton",
+        "Perez",
+        "Magnussen",
+        "Sainz",
+        "Hülkenberg",
+        "Leclerc",
+        "Hartley"
       ],
       result: [
-
+        "Vettel",
+        "Bottas",
+        "Verstappen",
+        "Ricciardo",
+        "Hamilton",
+        "Räikkönen",
+        "Hülkenberg",
+        "Sainz",
+        "Ocon",
+        "Leclerc"
       ]
     },
     frankreich: %{
