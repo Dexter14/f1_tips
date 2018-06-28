@@ -294,13 +294,40 @@ defmodule Formel1.Tip2018 do
     },
     frankreich: %{
       marcus: [
-
+        "Hamilton",
+        "Bottas",
+        "Vettel",
+        "Räikkönen",
+        "Ricciardo",
+        "Sainz",
+        "Magnussen",
+        "Leclerc",
+        "Hülkenberg",
+        "Ocon"
       ],
       alex: [
-
+        "Hamilton",
+        "Vettel",
+        "Bottas",
+        "Verstappen",
+        "Ricciardo",
+        "Leclerc",
+        "Sainz",
+        "Magnussen",
+        "Hülkenberg",
+        "Perez"
       ],
       result: [
-
+        "Hamilton",
+        "Verstappen",
+        "Räikkönen",
+        "Ricciardo",
+        "Vettel",
+        "Magnussen",
+        "Bottas",
+        "Sainz",
+        "Hülkenberg",
+        "Leclerc"
       ]
     },
     oesterreich: %{
