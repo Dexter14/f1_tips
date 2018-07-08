@@ -332,24 +332,78 @@ defmodule Formel1.Tip2018 do
     },
     oesterreich: %{
       marcus: [
-
+        "Hamilton",
+        "Bottas",
+        "Räikkönen",
+        "Verstappen",
+        "Ricciardo",
+        "Magnussen",
+        "Sainz",
+        "Hülkenberg",
+        "Gasly",
+        "Stroll"
       ],
       alex: [
-
+        "Bottas",
+        "Hamilton",
+        "Räikkönen",
+        "Vettel",
+        "Verstappen",
+        "Ricciardo",
+        "Grosjean",
+        "Magnussen",
+        "Sainz",
+        "Hülkenberg"
       ],
       result: [
-
+        "Verstappen",
+        "Räikkönen",
+        "Vettel",
+        "Grosjean",
+        "Magnussen",
+        "Ocon",
+        "Perez",
+        "Alonso",
+        "Leclerc",
+        "Ericsson"
       ]
     },
     grossbritanien: %{
       marcus: [
-
+        "Hamilton",
+        "Vettel",
+        "Räikkönen",
+        "Bottas",
+        "Verstappen",
+        "Ricciardo",
+        "Magnussen",
+        "Leclerc",
+        "Hülkenberg",
+        "Alonso"
       ],
       alex: [
-
+        "Hamilton",
+        "Vettel",
+        "Räikkönen",
+        "Bottas",
+        "Ricciardo",
+        "Leclerc",
+        "Magnussen",
+        "Alonso",
+        "Hülkenberg",
+        "Ocon"
       ],
       result: [
-
+        "Vettel",
+        "Hamilton",
+        "Räikkönen",
+        "Bottas",
+        "Ricciardo",
+        "Hülkenberg",
+        "Ocon",
+        "Alonso",
+        "Magnussen",
+        "Perez"
       ]
     },
     deutschland: %{
