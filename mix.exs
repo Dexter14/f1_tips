@@ -3,11 +3,11 @@ defmodule Formel1.Mixfile do
 
   def project do
     [app: :formel1,
-     version: "0.0.1",
-     elixir: "~> 1.1-dev",
+     version: "0.1.0",
+     elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps()]
   end
 
   # Configuration for the OTP application
@@ -29,9 +29,9 @@ defmodule Formel1.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:ex_doc, "~> 0.10.0"}
-      #{:poison, "~> 3.1"},
-      #{:httpoison, "~> 1.1"}
+      {:ex_doc, "~> 0.10.0"},
+      {:poison, "~> 3.1"},
+      {:httpoison, "~> 1.1"}
     ]
   end
 end
